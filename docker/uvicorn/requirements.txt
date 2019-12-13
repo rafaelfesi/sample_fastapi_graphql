@@ -1,0 +1,5 @@
+uvicorn
+fastapi
+SQLAlchemy
+graphene_sqlalchemy
+graphene
