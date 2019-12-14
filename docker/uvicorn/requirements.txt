@@ -1,5 +1,5 @@
 uvicorn
 fastapi
+graphene
 SQLAlchemy
 graphene_sqlalchemy
-graphene

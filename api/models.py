@@ -10,7 +10,7 @@ db_session = scoped_session(sessionmaker(autocommit=False,
                                          bind=engine))
 
 Base = declarative_base()
-# We will need this for querying
+# クエリを扱うために宣言
 Base.query = db_session.query_property()
 
 
